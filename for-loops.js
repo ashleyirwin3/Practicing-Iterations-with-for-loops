@@ -8,3 +8,8 @@ for (var i = 4096; i >= 1; i= i/2) {
 
 var AmericanPresidents = ["George Washington", "John Adams", "Thomas Jefferson"]
 console.log(AmericanPresidents)
+
+for (i = 0; i < AmericanPresidents.length; i++) {
+	console.log(i + AmericanPresidents [i])
+}
+
