@@ -13,3 +13,20 @@ for (i = 0; i < AmericanPresidents.length; i++) {
 	console.log(i + AmericanPresidents [i])
 }
 
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (prop in antSpecies) {
+	console.log(prop);
+}
